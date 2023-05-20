@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      img {
+        width: 110px;
+        height: 110px;
+        object-fit: cover;
+      }
+      .card_wrapper {
+        display: flex;
+        padding-top: 30px;
+        gap: 20px;
+        align-items: center;
+      }
+      .description {
+        width: 350px;
+      }
+      h6 {
+        text-transform: uppercase;
+      }
+      .sale {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Корзина</h1>
+    <div class="card_wrapper">
+      <img src="/images/2095000915711_1_nfhmurqqivuzevws.webp" alt="" />
+      <div class="description">
+        <h6>колье</h6>
+        <h4>HOLLY JUNE drop necklace, light green</h4>
+      </div>
+      <div class="price"><span id="necklace">7180</span> &#8381;</div>
+    </div>
+    <div class="card_wrapper">
+      <img src="/images/2000490829004_1_prnrtmwp12itkcsa.webp" alt="" />
+      <div class="description">
+        <h6>шелковая маска для сна</h6>
+        <h4>SILK LOVERS пудра</h4>
+      </div>
+      <div class="price"><span id="mask">5001</span> &#8381;</div>
+    </div>
+    <div class="card_wrapper">
+      <img src="/images/3359586688155_1_ukjohzzocmpebdg1.webp" alt="" />
+      <div class="description">
+        <h6>свеча-практика</h6>
+        <h4>FACE YOGA gratefulness</h4>
+      </div>
+      <div class="price"><span id="candle">2650</span> &#8381;</div>
+    </div>
+    <div class="card_wrapper">
+      <img src="/images/4610051403253_1_mnn1askj3ahwtyy6.webp" alt="" />
+      <div class="description">
+        <h6>ароматический диффузор</h6>
+        <h4>SONNO tonka bean</h4>
+      </div>
+      <div class="price"><span id="diff">1990</span> &#8381;</div>
+    </div>
+
+    <div class="sale">
+      <button class="button">
+        <p>Применить скидку 20%</p>
+      </button>
+      <p>Итого: <span class="total">0</span> &#8381;</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
